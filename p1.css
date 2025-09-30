@@ -1,0 +1,17 @@
+.container
+{
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#game
+{
+  margin: auto;
+  border: 1px solid black;
+  /* +4 rows & +4 cols, need 16*10 grid cells. 
+  16*25 = 400, 10*25 = 250 */
+  width: 400px; 
+  height: 250px;
+}
